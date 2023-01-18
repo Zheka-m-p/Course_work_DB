@@ -58,7 +58,7 @@ def get_category_by_id(config, id):
 
 config = {
     "host": "localhost",
-    "database": "Northwind_Traders ",
+    "database": "Northwind_Traders",
     "user": "postgres",
     "password": "12345"
 }

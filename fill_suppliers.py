@@ -35,7 +35,7 @@ def data_for_write_in_table(file_name):
 
 
 assert verification_of_the_uniqueness_of_the_goods_of_suppliers() == True
-conn = psycopg2.connect(host='localhost', database='Northwind_Traders ', user='postgres', password='12345')
+conn = psycopg2.connect(host='localhost', database='Northwind_Traders', user='postgres', password='12345')
 try:
     with conn:
         with conn.cursor() as cur:  # закрывает курсор
